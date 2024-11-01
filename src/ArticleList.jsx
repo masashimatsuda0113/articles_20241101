@@ -31,7 +31,7 @@ const ArticleList = ({ selectedCategory, selectedTag, onCategoryChange, onTagCha
 
   return (
     <main>
-      <h1 className="title">記事一覧</h1>
+      <h1 className="title">記事一覧<small>松田作</small></h1>
 
       {/* カテゴリ選択のボタン */}
       <div className="categories">
